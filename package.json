@@ -1,0 +1,41 @@
+{
+  "name": "otpinputnative",
+  "widgetName": "OTPInputNative",
+  "version": "1.0.0",
+  "description": "My widget description",
+  "copyright": "MxTechies",
+  "author": "Javith",
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "Apache2.0",
+  "config": {
+    "projectPath": "D:\\\\Mendix Apps\\\\MxRetail-main"
+  },
+  "packagePath": "mxtechies",
+  "scripts": {
+    "start": "pluggable-widgets-tools start:native",
+    "build": "pluggable-widgets-tools build:native",
+    "lint": "pluggable-widgets-tools lint",
+    "lint:fix": "pluggable-widgets-tools lint:fix",
+    "prerelease": "npm run lint",
+    "release": "pluggable-widgets-tools release:native"
+  },
+  "devDependencies": {
+    "@mendix/pluggable-widgets-tools": "^10.0.0",
+    "@types/big.js": "^6.0.2"
+  },
+  "dependencies": {
+    "native-base": "^3.4.28",
+    "react-native-easy-grid": "^0.2.2",
+    "react-native-otp-inputs": "^3.0.0"
+  },
+  "resolutions": {
+    "react": "18.2.0",
+    "react-native": "0.70.7"
+  },
+  "overrides": {
+    "react": "18.2.0",
+    "react-native": "0.70.7"
+  }
+}
