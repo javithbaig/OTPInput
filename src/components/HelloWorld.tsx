@@ -45,17 +45,13 @@ export class HelloWorld extends Component<HelloWorldProps> {
                 numberOfInputs={sizevalue} 
                 containerStyles = {this.styles.input}
                 focusedBorderColor = {focusedBorderColor}
-
                 errorMessage = {this.props.hasError}/>
             </View>
         );
     }
 
     private onLeave(value: string): void {
-     
-        
             this.props.textAttribute?.setValue(value);
-          
     }
 
 }

@@ -11,15 +11,18 @@
         <propertyGroup caption="Data source">
             <property key="textAttribute" type="attribute" onChange="onChangeAction" >
                 <caption>Otp attribute</caption>
+                <description></description>
                 <attributeTypes>
                 <attributeType name="String" />
                 </attributeTypes>
             </property>
             <property key="inputSize" type="integer" required="true" defaultValue="4">
                 <caption>Input Size</caption>
+                <description></description>
             </property>
             <property key="focusedBorderColor" type="string" required="true" defaultValue="4">
                 <caption>focused Border Color</caption>
+                <description></description>
             </property>
         </propertyGroup>
         <propertyGroup caption="Label">

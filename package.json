@@ -2,13 +2,13 @@
   "name": "otpinputnative",
   "widgetName": "OTPInputNative",
   "version": "1.0.0",
-  "description": "My widget description",
+  "description": "otpinputnative is fully customizable, pure JavaScript package, that provides solution for One-time password feature with user friendly events like moving to previous input with backspace or going to next when filled in. It supports pasting and otp code into inputs",
   "copyright": "MxTechies",
   "author": "Javith",
   "engines": {
     "node": ">=16"
   },
-  "license": "Apache2.0",
+  "license": "MIT",
   "config": {
     "projectPath": "D:\\\\Mendix Apps\\\\MxRetail-main"
   },
